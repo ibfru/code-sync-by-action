@@ -38,7 +38,7 @@ jobs:
         white_list: "test_org"
         account_type: org
         dst_account_type: user
-        clone_style: ssh 
+        clone_style: https 
         force_update: true
         # static_list: 'ibforuorg'
         debug: true
