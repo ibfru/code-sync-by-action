@@ -39,6 +39,6 @@ jobs:
         account_type: org
         clone_style: ssh 
         force_update: true
-        static_list: 'ibforuorg'
+        # static_list: 'ibforuorg'
         debug: true
         lfs: true
