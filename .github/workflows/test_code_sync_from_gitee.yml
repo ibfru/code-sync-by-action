@@ -37,6 +37,7 @@ jobs:
         dst_token: ${{ secrets.GITEE_TOKEN }}
         white_list: "test_org"
         account_type: org
+        dst_account_type: user
         clone_style: ssh 
         force_update: true
         # static_list: 'ibforuorg'
