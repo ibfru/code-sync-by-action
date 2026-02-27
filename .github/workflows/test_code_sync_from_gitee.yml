@@ -31,15 +31,15 @@ jobs:
     - name: Send greeting
       uses: Yikun/hub-mirror-action@master
       with:
-        src: gitee/ibforuorg
-        dst: github/ibfru
+        src: gitcode/ibforuorg
+        dst: github/ibfruorg
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
-        white_list: "test_org"
+        # white_list: "test1"
         account_type: org
-        dst_account_type: user
-        clone_style: https 
+        # dst_account_type: user
+        clone_style: ssh 
         force_update: true
-        # static_list: 'ibforuorg'
+        static_list: "test1"
         debug: true
         lfs: true
